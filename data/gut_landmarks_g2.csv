@@ -1,0 +1,15 @@
+ident,anatomy,abbreviation,pos,version
+GUT_ATLAS_REG:28,anus,anus,0,G2
+GUT_ATLAS_REG:4,ano-rectal junction,ARJ,40,G2
+GUT_ATLAS_REG:5,anterior peritoneal reflection,APR,100,G2
+GUT_ATLAS_REG:7,recto-sigmoid junction,RSJ,160,G2
+GUT_ATLAS_REG:8,descending sigmoid junction,DSJ,560,G2
+GUT_ATLAS_REG:3,splenic flexure,SF,810,G2
+GUT_ATLAS_REG:6,hepatic flexure,HF,1310,G2
+GUT_ATLAS_REG:9,caeco-colonic junction,CCJ,1460,G2
+MERGED_ICVc_ICVi,ileocaecal valve (caecum & ileum),ICVc/ICVi,1475,G2
+GUT_ATLAS_REG:13,appendix orifice,AO,1500,G2
+GUT_ATLAS_REG:17,ileum-terminal ileum junction,ITIJ,1575,G2
+GUT_ATLAS_REG:82,jejunum-ileum junction,JIJ,3975,G2
+GUT_ATLAS_REG:106,duodenum-jejunum junction,DJJ,5475,G2
+MERGED_GDJ_PIL,gastro-duodenum junction / proximal ileum limit,GDJ/PIL,5725,G2
