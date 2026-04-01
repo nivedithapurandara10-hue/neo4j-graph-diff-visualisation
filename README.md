@@ -1,6 +1,6 @@
 # Visualisation-Based Graph Database Comparison (Neo4j)
 
-## 📌 Overview
+## Overview
 
 This project presents a **visualisation-driven framework for comparing graph database versions** using Neo4j. It enables the detection and interpretation of differences across multiple analytical layers:
 
@@ -12,7 +12,7 @@ The framework constructs a **difference graph (ΔG)** that isolates only the rel
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * Detect structural changes between graph versions (G1 and G2)
 * Identify semantic (property-level) modifications in relationships
@@ -22,7 +22,7 @@ The framework constructs a **difference graph (ΔG)** that isolates only the rel
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 neo4j-graph-diff-visualisation/
@@ -45,13 +45,13 @@ neo4j-graph-diff-visualisation/
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 
 The dataset represents a **graph-based anatomical model of the gastrointestinal tract**.
 
 Each graph version is constructed using two CSV files:
 
-### 🔹 Landmark Files (Nodes)
+### Landmark Files (Nodes)
 
 Contain anatomical boundary points:
 
@@ -61,7 +61,7 @@ Contain anatomical boundary points:
 * `pos` — spatial position
 * `version` — graph version (G1 or G2)
 
-### 🔹 Region Files (Relationships)
+### Region Files (Relationships)
 
 Define connections between landmarks:
 
@@ -73,7 +73,7 @@ Define connections between landmarks:
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
 The framework follows a **multi-layer differencing pipeline**:
 
@@ -122,7 +122,7 @@ Builds a **difference subgraph (ΔG)** containing:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Step 1 — Load Data
 
@@ -176,20 +176,20 @@ scripts/delta_graph.cypher
 
 ---
 
-## 🧠 Key Insight
+## Key Insight
 
 Local structural changes (e.g., node deletion or edge rewiring) can produce **non-local effects** across the graph.
 This framework captures those effects using centrality-based analysis and highlights them in ΔG.
 
 ---
 
-## 📎 Reproducibility
+## Reproducibility
 
 All datasets and queries are included in this repository, enabling full reproduction of results.
 
 ---
 
-## 📚 Technologies Used
+## Technologies Used
 
 * **Neo4j** — Graph database
 * **Cypher** — Query language
@@ -198,7 +198,7 @@ All datasets and queries are included in this repository, enabling full reproduc
 
 ---
 
-## 👤 Author
+## Author
 
 **Niveditha Purandara**
 MSc Data Science
@@ -206,7 +206,7 @@ Heriot-Watt University
 
 ---
 
-## 📌 Notes
+## Notes
 
 This project was developed as part of a dissertation on **graph database comparison and visual analytics**, focusing on improving accessibility for domain experts through visual differencing techniques.
 
